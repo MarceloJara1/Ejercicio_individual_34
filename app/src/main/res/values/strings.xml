@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ejercicio individual 34</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Images from the API</string>
+    <string name="second_fragment_label">Detail</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+</resources>
