@@ -1,13 +1,12 @@
-package com.example.ejercicioindividual34.View
+package com.example.ejercicioindividual34.Ui.View
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.ejercicioindividual34.Model.MarsRealState
+import com.example.ejercicioindividual34.Domain.Model.Mars
 import com.example.ejercicioindividual34.R
 
-class MarsAdapter(private var marsRealStates: List<MarsRealState>): RecyclerView.Adapter<MarsRealStateViewHolder>() {
+class MarsAdapter(private var marsRealStates: List<Mars>): RecyclerView.Adapter<MarsRealStateViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MarsRealStateViewHolder {
        val layoutInflater: LayoutInflater = LayoutInflater.from(parent.context)
@@ -22,7 +21,7 @@ class MarsAdapter(private var marsRealStates: List<MarsRealState>): RecyclerView
 
     override fun getItemCount(): Int = marsRealStates.size
 
-    fun updateData(marsRealStates: List<MarsRealState>) {
+    fun updateData(marsRealStates: List<Mars>) {
         this.marsRealStates = marsRealStates
         notifyDataSetChanged()
     }

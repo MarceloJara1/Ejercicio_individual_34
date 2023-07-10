@@ -1,8 +1,8 @@
-package com.example.ejercicioindividual34.Model
+package com.example.ejercicioindividual34.Data.Model
 
 import com.google.gson.annotations.SerializedName
 
-data class MarsRealState(
+data class MarsModel(
     @SerializedName("id")
     val id: String,
     @SerializedName("price")
@@ -12,4 +12,5 @@ data class MarsRealState(
     @SerializedName("img_src")
     val img: String
     )
+
 

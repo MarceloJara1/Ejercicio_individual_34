@@ -1,4 +1,4 @@
-package com.example.ejercicioindividual34.View
+package com.example.ejercicioindividual34.Ui.View
 
 import android.os.Bundle
 import android.view.Menu
@@ -11,7 +11,9 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import com.example.ejercicioindividual34.R
 import com.example.ejercicioindividual34.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
