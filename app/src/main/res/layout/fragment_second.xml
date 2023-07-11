@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -31,7 +31,6 @@
                 android:id="@+id/txtType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Buy"
                 android:textSize="30sp"
                 android:textStyle="bold" />
 
@@ -39,7 +38,6 @@
                 android:id="@+id/txtPrice"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="$4500000"
                 android:textSize="26sp" />
 
         </LinearLayout>

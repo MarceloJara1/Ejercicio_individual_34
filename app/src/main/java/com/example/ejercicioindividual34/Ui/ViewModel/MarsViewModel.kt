@@ -32,11 +32,6 @@ class MarsViewModel @Inject constructor(
                 Log.e(TAG, "Error al obtener los datos", e)
             }
 
-            /*
-            if (!result.isNullOrEmpty()) {
-                marsList.value = result
-            }*/
-
         }
     }
     companion object {
